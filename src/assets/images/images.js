@@ -1,0 +1,8 @@
+export { default as logo } from './logo.png'
+export { default as shoppingCart } from './ShoppingCart.png'
+export { default as userProfile } from './userProfile.png'
+export { default as arrowDown } from './arrowDown.svg'
+export { default as carCenter } from './car.png'
+export { default as carLeft } from './car2.png'
+export { default as carRight } from './car3.png'
+export { default as carIcon } from './carIcon.png'

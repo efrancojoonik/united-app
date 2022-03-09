@@ -1,0 +1,42 @@
+:root{
+  --dark-color: black;
+  --gray-color: #f4f4f4;
+  --gray-dark: #7b7c7e;
+  --first-color: #003398;
+  --firs-color_alt-one: #ccd6ea;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Bold.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Light.ttf');
+  font-weight: 300;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-wrapper{
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container{
+  padding: 1.2rem 2rem;
+  max-width: 1140px;
+  margin: 0 auto;
+}
