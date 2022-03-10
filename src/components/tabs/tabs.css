@@ -1,0 +1,33 @@
+:root{
+    --height-indicator: 6px;
+    --bottom-indicator: -6px;
+}
+.tab-header{
+    position: relative;
+    display: flex;
+    border-bottom: var(--height-indicator) solid var(--gray-color);
+}
+
+.tab-header__item{
+    padding: 1rem .8rem;
+}
+
+.tab-header__text{
+    color: var(--gray-dark);
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.active .tab-header__text{
+    color: var(--first-color);
+}
+
+.tab-header__indicator{
+    display: block;
+    position: absolute;
+    height: var(--height-indicator) ;
+    width: 6.5rem;
+    background-color: var(--first-color);
+    bottom: var(--bottom-indicator) ;
+}
