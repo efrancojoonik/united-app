@@ -1,0 +1,14 @@
+.tag{
+    font-family: Lato;
+    color: var(--first-color);
+    background-color: var(--first-color_alt-one);
+    padding: .2rem .6rem;
+    border-radius: 30px;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.grid-tags{
+    display: flex;
+    column-gap: .5rem;
+}
