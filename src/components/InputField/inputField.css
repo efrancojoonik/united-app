@@ -1,0 +1,42 @@
+.field{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.field__input-container{
+    position: relative;
+}
+
+.field__input{
+    width: 100%;
+    outline: none;
+    border: 2px solid var(--gray-color);
+    height: 2rem;
+    padding: .5rem;
+    padding-right: 1.8rem;
+    background: transparent;
+    font-size: .8rem;
+    color: var(--gray-dark);
+    border-radius: 3px;
+    font-family: Lato;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.field__icon-container{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    padding: .5rem;
+}
+
+.field__icon{
+    width: auto;
+    height: 100%;
+}
