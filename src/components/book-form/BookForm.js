@@ -21,8 +21,8 @@ const BookForm = () => {
         </Group>
         <Separator />
         <div className='row-gap'>
-          <InputField label='Pick Up Location' type='date' icon={images.pin} />
-          <InputField label='Drop Of Location' type='date' icon={images.pin} />
+          <InputField label='Pick Up Location' type='text' icon={images.pin} placeholder="Select..." />
+          <InputField label='Drop Of Location' type='text' icon={images.pin} placeholder="Select..."/>
         </div>
         <Separator />
         <p className='book-form__resume-price'>
