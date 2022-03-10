@@ -1,0 +1,24 @@
+.button{
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: .8rem 1rem;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: .3s all ease-in-out;
+}
+
+.button--primary{
+    background-color: var(--first-color_alt-one);
+    color: var(--first-color);
+}
+
+.button--primary:hover{
+    background-color: #ccd6ea20;
+}
+
+.button--secondary{
+    background-color: var(--first-color);
+    color: var(--light-color);
+}
