@@ -2,6 +2,7 @@
   --dark-color: black;
   --gray-color: #f4f4f4;
   --gray-dark: #7b7c7e;
+  --light-color: #fff;
   --first-color: #003398;
   --first-color_alt-one: #ccd6ea;
 }
@@ -39,4 +40,27 @@
   padding: 1.2rem 2rem;
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.space-container{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-border, .card{
+  border: 2px solid #ededed;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card-content, .card{
+  padding: 1.2rem;
+}
+
+.row-gap{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
 }
