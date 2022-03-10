@@ -1,0 +1,16 @@
+.featured-title{
+    display: flex;
+    align-items: center;
+}
+
+.featured-title__icon{
+    width: 3rem;
+}
+
+.featured-title__text{
+    margin-left: 1.2rem;
+    color: var(--gray-dark);
+    font-size: 2.5rem;
+    font-family: Lato;
+    font-weight: 300;
+}
