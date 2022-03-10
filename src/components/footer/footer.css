@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--gray-dark);
+    color: var(--gray-color);
+    font-size: .8rem;
+    padding: .8rem 3rem;
+    font-family: Lato;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__highlight-text{
+   color: #fff;
+   font-weight: 500;
+}
